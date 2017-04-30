@@ -7,6 +7,11 @@ listNames = ["name1",
 def list_to_XML(listNames):
     xml_list =[]
     for nm in listNames:
+<<<<<<< HEAD
+=======
+        #print "<xs:element name=" + i"/>"
+        #print("<xs:element name=\"" %s "\"/>") %i
+>>>>>>> a5006fdb16f63ba8f29ae658819b7e39924df9ca
         print('<xs:element name="'+str(nm)+ '"/>')
         xml_list.append('<xs:element name="'+str(nm)+ '"/>')
 
